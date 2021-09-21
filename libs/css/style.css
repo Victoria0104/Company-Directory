@@ -1,0 +1,260 @@
+body {
+    background-color: whitesmoke;
+    background-image: URL("../imgs/webb.png");
+}
+
+#title {    
+    font-family: 'Monaco', 'Monospace';
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#functionRow {
+    margin: 1.5%;
+}
+
+.buttonRow {
+    margin: auto;
+    text-align: center;
+}
+
+.searchBar {
+    margin: auto;
+    text-align: center;
+}
+
+#searchField {
+    width:40%
+}
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 500px;
+    background-color: whitesmoke;
+}
+.tableFixHead thead th {
+    position: sticky;
+    top: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+}
+th {
+    background: gray;
+    color: white;
+}
+
+td, th {
+    border-style: solid;
+    border-width: 1px !important;
+}
+
+.tableRow:hover {
+    cursor: pointer;
+    background-color: antiquewhite !important;
+}
+
+.tableIcon{
+    text-align: center;
+}
+
+#resetBtn{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.rowButtons {
+    width: 25%;
+    text-align: center;
+}
+
+.formLocation{
+    background-color: whitesmoke !important;
+}
+
+.submitBtn{
+    margin: auto !important;
+}
+
+.tableHolder {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2.5%;
+    border-style: double;
+    border-color: black;
+}
+
+.searchForm{
+    width: 80%;
+    margin: auto;
+}
+
+#justifySearch{
+    display: flex;
+    justify-content: center;
+}
+
+#searchSelect{
+    background-color: whitesmoke;
+}
+
+#search:hover{
+    cursor: pointer;
+}
+
+.reset{
+    padding-top: 0.4%
+}
+
+.btnAllign{
+    display: inherit;
+}
+
+.cancelBtn{
+    margin-right: 5%;
+}
+
+.userInfo {
+    background-color: whitesmoke !important;
+}
+
+.delete {
+    text-align: center;
+    color: red;
+}
+
+.tableFixHeadModals {
+    overflow-y: auto;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.tableFixHeadModals thead th {
+    position: sticky;
+    top: 0;
+}
+
+.tableHead{
+    background-color: gray;
+    color: white;
+}
+
+.depTableRow:hover, .locTableRow:hover {
+    cursor: pointer;
+    background-color: antiquewhite !important;
+}
+
+.deleteBtn {
+    margin: auto;
+    text-align: center;
+}
+
+.modalIcon{
+    width: 75%;
+}
+
+#add_user_location{
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1250px) {
+
+    html {
+        font-size: 0.75em;
+    }
+
+    .tableHolder {
+        width: 95%;
+    }
+
+    td {
+        padding: 4px 8px;
+        border: 0.5px solid #ccc;
+    }
+
+    th {
+        padding: 0px;
+        text-align: center !important;
+    }
+
+}
+
+@media only screen and (max-width: 1025px) {
+
+    html {
+        font-size: 0.65em;
+    }
+
+    .tableHolder {
+        width: 98%;
+    }
+
+    td {
+        padding: 2px 4px;
+        border: 0.5px solid #ccc;
+    }
+
+    .tableIcon {
+        display: none;
+    }
+
+    th {
+        padding: 0px;
+        text-align: center !important;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .input-group{
+        display: block !important;
+    }
+
+    #searchSelect {
+        width: 100% !important;
+    }
+
+    #searchField {
+        width: 100% !important;
+    }
+
+    #search{
+        width: 50%;
+        margin: auto !important;
+        margin-top: 2% !important;
+        justify-content: center;
+    }
+    
+    #searchBar{
+        margin: 2.5% !important;
+    }
+
+    .reset{
+        padding-top: 6%;
+    }
+
+    .modalIcon {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .hider1 {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .hider2 {
+        display:none;
+    }
+    .reset{
+        padding-top: 10%;
+    }
+}
